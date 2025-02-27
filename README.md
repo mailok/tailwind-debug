@@ -58,9 +58,9 @@ You can specify the thickness of the outline (0-19):
 </div>
 ```
 
-#### Custom Colors and Shades
+#### Custom Colors
 
-You can specify the color and shade from your Tailwind color palette:
+You can specify the color from your Tailwind color palette:
 
 ```html
 <div class="debug-2-blue-500">
@@ -68,10 +68,9 @@ You can specify the color and shade from your Tailwind color palette:
 </div>
 ```
 
-The format is `debug-{thickness}-{color}-{shade}`, where:
+The format is `debug-{thickness}-{color}`, where:
 - `thickness`: A number from 0-19
 - `color`: Any color from your Tailwind color palette
-- `shade`: Any shade from your Tailwind color palette for the specified color
 
 ## Examples
 
