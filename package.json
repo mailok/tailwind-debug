@@ -22,11 +22,11 @@
     "outline",
     "development"
   ],
-  "author": "",
+  "author": "Angel A. Nuñez",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/username/tailwind-debug-plugin.git"
+    "url": "https://github.com/mailok/tailwind-debug"
   },
   "peerDependencies": {
     "tailwindcss": "^3.0.0"
