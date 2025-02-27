@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-debug-plugin-example",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./styles.css -o ./output.css",
+    "watch:css": "tailwindcss -i ./styles.css -o ./output.css --watch",
+    "serve": "npx http-server ."
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+} 

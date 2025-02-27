@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Debug Plugin Example</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="p-8 bg-gray-100">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6">Tailwind Debug Plugin Examples</h1>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- Basic debug example -->
+      <div class="p-4 bg-white rounded shadow">
+        <h2 class="font-semibold mb-3">Basic Debug</h2>
+        <div class="debug p-4 bg-gray-50">
+          This element has the default debug outline
+        </div>
+      </div>
+
+      <!-- Custom thickness example -->
+      <div class="p-4 bg-white rounded shadow">
+        <h2 class="font-semibold mb-3">Custom Thickness</h2>
+        <div class="debug-5 p-4 bg-gray-50">
+          This element has a 6px red outline
+        </div>
+      </div>
+
+      <!-- Custom color example -->
+      <div class="p-4 bg-white rounded shadow">
+        <h2 class="font-semibold mb-3">Custom Color</h2>
+        <div class="debug-2-blue-500 p-4 bg-gray-50">
+          This element has a blue outline
+        </div>
+      </div>
+
+      <!-- Custom color and shade example -->
+      <div class="p-4 bg-white rounded shadow">
+        <h2 class="font-semibold mb-3">Custom Color and Shade</h2>
+        <div class="debug-3-purple-600 p-4 bg-gray-50">
+          This element has a purple outline
+        </div>
+      </div>
+
+      <!-- Thin outline example -->
+      <div class="p-4 bg-white rounded shadow">
+        <h2 class="font-semibold mb-3">Thin Outline</h2>
+        <div class="debug-0-green-300 p-4 bg-gray-50">
+          This element has a thin green outline
+        </div>
+      </div>
+
+      <!-- Complex nested example -->
+      <div class="debug-1 p-4 bg-white rounded shadow">
+        <h2 class="font-semibold mb-3">Nested Debug Elements</h2>
+        <div class="debug-2-yellow-400 p-4 bg-gray-50 mb-3">
+          Parent element with yellow outline
+          <div class="debug-1-blue-400 p-2 bg-white mt-2">
+            Child element with blue outline
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html> 

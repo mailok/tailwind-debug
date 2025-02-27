@@ -1,0 +1,32 @@
+# Source files
+src/
+examples/
+
+# Configuration files
+tsconfig.json
+.gitignore
+.npmignore
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Git files
+.git/
+.github/
+
+# Test files
+__tests__/
+test/
+tests/
+*.test.ts
+*.spec.ts
+
+# Misc
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/ 
