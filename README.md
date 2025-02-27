@@ -1,6 +1,6 @@
 # Tailwind Debug Plugin
 
-A Tailwind CSS plugin that adds debug utility classes to help visualize layouts with customizable outlines.
+A Tailwind CSS plugin I made for myself 😅 that simplifies layout debugging by providing a shorthand syntax for borders. Instead of writing multiple classes like `border-2 border-red-500`, this plugin allows you to quickly visualize multiple layout elements with a single class like `debug` or `debug-{value}`.
 
 ## Installation
 
@@ -91,7 +91,3 @@ The format is `debug-{thickness}-{color}-{shade}`, where:
 ## License
 
 MIT
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. 
